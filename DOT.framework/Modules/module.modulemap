@@ -1,0 +1,6 @@
+framework module DOT {
+  umbrella header "DOT.h"
+
+  export *
+  module * { export * }
+}
