@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author       = { 'Wisetracker' => 'tech@wisetracker.co.kr' }
   s.ios.deployment_target = '9.3'
 
-  s.source       = { :git => "https://github.com/WisetrackerTechteam/RW-Session-SDK.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/WisetrackerTechteam/RW-iOS-SDK.git", :tag => s.version.to_s }
   s.ios.vendored_frameworks = 'DOT.framework', 'DOTSession.framework'
   s.dependency "CouchbaseLite"
   s.resources = ["dop-native-sdk-inf.js"]
