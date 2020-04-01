@@ -91,7 +91,7 @@
 @property (nonatomic) long long wtclkTime;
 @property (nonatomic) NSString *isDrUpdate;
 @property (nonatomic) NSString *openDl;
-@property (nonatomic) NSString *latestGcmPid;
+@property (nonatomic) NSString *latestGcmpid;
 
 //Referrer
 @property (nonatomic) NSString *its;

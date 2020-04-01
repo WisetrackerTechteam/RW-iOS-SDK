@@ -15,11 +15,7 @@
 
 #import <DOTSession/DOTSession.h>
 #import "KeyConstant.h"
-//Use UserNotifications with iOS 10+
-#if __IPHONE_OS_VERSION_MAX_ALLOWED >= 100000
-#define IOS10PLUS 1
-#import <UserNotifications/UserNotifications.h>
-#endif
+
 
 
 //! Project version number for DOTAdvance.
@@ -36,11 +32,13 @@ FOUNDATION_EXPORT const unsigned char DOTAdvanceVersionString[];
 //SDK init함수
 //+ (void)initailization;
 
-//native 사용함수
-+ (void)setPurchase:(Purchase *)purchase;
-+ (void)setConversion:(Conversion *)conversion;
-+ (void)setPage:(Page *)page;
-+ (void)setClick:(Click *)click;
+//native 사용함수(deprecated)
+//+ (void)setPurchase:(Purchase *)purchase;
+//+ (void)setConversion:(Conversion *)conversion;
+//+ (void)setPage:(Page *)page;
+//+ (void)setClick:(Click *)
+
+// 생명주기 관련 함수
 + (void)onStartPage;
 + (void)onStopPage;
 + (void)enterForeground;
@@ -63,10 +61,4 @@ FOUNDATION_EXPORT const unsigned char DOTAdvanceVersionString[];
 + (void)logPurchase:(NSMutableDictionary *)revenue;
 + (void)logScreen:(NSMutableDictionary *)screen;
 
-// iOS 10 only
-// Notification Service Extension
-#ifdef IOS10PLUS
-+ (UNMutableNotificationContent*)didReceiveNotificationExtensionRequest:(UNNotificationRequest*)request withContent:(UNMutableNotificationContent*)replacementContent;
-+ (UNMutableNotificationContent*)serviceExtensionTimeWillExpireRequest:(UNNotificationRequest*)request withContent:(UNMutableNotificationContent*)replacementContent;
-#endif
 @end

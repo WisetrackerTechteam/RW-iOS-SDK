@@ -4,3 +4,8 @@ framework module DOTSession {
   export *
   module * { export * }
 }
+
+module DOTSession.Swift {
+    header "DOTSession-Swift.h"
+    requires objc
+}

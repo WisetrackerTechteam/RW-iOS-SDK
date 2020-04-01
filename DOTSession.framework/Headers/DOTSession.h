@@ -26,7 +26,11 @@
 #import "NHNetAssociation.h"
 #import "NHNetworkClock.h"
 #import "NSDate+NetworkClock.h"
-
+//Use UserNotifications with iOS 10+
+#if __IPHONE_OS_VERSION_MAX_ALLOWED >= 100000
+#define IOS10PLUS 1
+#import <UserNotifications/UserNotifications.h>
+#endif
 //! Project version number for DOT.
 FOUNDATION_EXPORT double DOTVersionNumber;
 
@@ -38,10 +42,7 @@ FOUNDATION_EXPORT const unsigned char DOTVersionString[];
 @interface DOTSession : NSObject
 
 //SDK init함수
-//+ (void)initialization:(NSDictionary *)lauchOptions;
-//+ (void)initializationInterface:(NSDictionary *)lauchOptions;
 + (void)initialization:(NSDictionary *)launchOptions application:(UIApplication *)application;
-+ (void)initializationInterface:(NSDictionary *)launchOptions application:(UIApplication *)application;
 
 //native 사용함수
 + (void)setUser:(User *)user;
@@ -65,4 +66,12 @@ FOUNDATION_EXPORT const unsigned char DOTVersionString[];
 + (NSMutableDictionary *)getSessionData;
 + (BOOL)getDOTSessionInitYN;
 + (BOOL)checkNewSession;
+
+// iOS 10 only
+// Notification Service Extension
+#ifdef IOS10PLUS
++ (UNMutableNotificationContent*)didReceiveNotificationExtensionRequest:(UNNotificationRequest*)request withContent:(UNMutableNotificationContent*)replacementContent API_AVAILABLE(ios(10.0)) API_AVAILABLE(ios(10.0));
++ (UNMutableNotificationContent*)serviceExtensionTimeWillExpireRequest:(UNNotificationRequest*)request withContent:(UNMutableNotificationContent*)replacementContent API_AVAILABLE(ios(10.0)) API_AVAILABLE(ios(10.0));
+#endif
+
 @end

@@ -10,6 +10,11 @@
 #import <WebKit/WebKit.h>
 #import "SessionJson.h"
 
+#if __IPHONE_OS_VERSION_MAX_ALLOWED >= 100000
+#define IOS10PLUS 1
+#import <UserNotifications/UserNotifications.h>
+#endif
+
 @interface Tracker : NSObject
   
 
@@ -47,6 +52,13 @@
 
 //DOT SDK 호출함수
 - (NSMutableDictionary *)getSessionData;
+
+// iOS 10 only
+// Notification Service Extension
+#ifdef IOS10PLUS
+- (UNMutableNotificationContent*)didReceiveNotificationExtensionRequest:(UNNotificationRequest*)request withContent:(UNMutableNotificationContent*)replacementContent API_AVAILABLE(ios(10.0)) API_AVAILABLE(ios(10.0));
+- (UNMutableNotificationContent*)serviceExtensionTimeWillExpireRequest:(UNNotificationRequest*)request withContent:(UNMutableNotificationContent*)replacementContent API_AVAILABLE(ios(10.0)) API_AVAILABLE(ios(10.0));
+#endif
 
 @end
 
