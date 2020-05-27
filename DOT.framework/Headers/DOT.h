@@ -48,11 +48,11 @@ FOUNDATION_EXPORT const unsigned char DOTAdvanceVersionString[];
 + (void)setPushClick:(NSDictionary *)userInfo application:(UIApplication *)application;
 
 //webview, wkWebView 사용함수
-+ (void)setWebView:(UIWebView *)webView reqeust:(NSURLRequest *)request;
+//+ (void)setWebView:(UIWebView *)webView reqeust:(NSURLRequest *)request;
 + (void)setWkWebView:(WKWebView *)wkWebView reqeust:(NSURLRequest *)request;
 + (void)onStartWebPage;
 + (void)onStopWebPage;
-+ (void)setJavascriptInjectionInWebView:(UIWebView *)webView;
+//+ (void)setJavascriptInjectionInWebView:(UIWebView *)webView;
 + (void)setJavascriptInjectionInWkWebView:(WKWebView *)wkWebView;
 
 //RW New API

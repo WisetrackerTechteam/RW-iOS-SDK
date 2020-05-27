@@ -112,6 +112,7 @@
 @property (nonatomic) long long pushCkTime;
 @property (nonatomic) NSInteger pushPeriod;
 @property (nonatomic) NSString *pushTitle;
+@property (nonatomic) NSString *saveToken;
 
 //App Info
 @property (nonatomic) NSString *_wthst;
