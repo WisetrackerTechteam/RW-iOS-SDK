@@ -38,10 +38,10 @@ FOUNDATION_EXPORT const unsigned char DOXVersionString[];
 + (void)logRevenue:(XRevenue *)revenue;
 + (void)changeKeyInSessionDataWith:(NSString *)oldKey newKey:(NSString *)newKey;
 
-//webview, wkWebView 사용함수
-+ (void)setWebView:(UIWebView *)webView reqeust:(NSURLRequest *)request;
+//wkWebView 사용함수
+//+ (void)setWebView:(UIWebView *)webView reqeust:(NSURLRequest *)request;
 + (void)setWkWebView:(WKWebView *)wkWebView reqeust:(NSURLRequest *)request;
-+ (void)setJavascriptInjectionInWebView:(UIWebView *)webView;
+//+ (void)setJavascriptInjectionInWebView:(UIWebView *)webView;
 + (void)setJavascriptInjectionInWkWebView:(WKWebView *)wkWebView;
 
 //unity 사용함수
