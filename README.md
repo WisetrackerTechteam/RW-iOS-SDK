@@ -135,12 +135,11 @@ func webViewDidFinishLoad(_ webView: UIWebView) {
 ### 3.2 WKWebView를 사용할 경우 적용할 분석코드
 
 ```swift
-var webLoaded : Bool!
 func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
-	var request: URLRequest? = navigationAction.request
+	let request: URLRequest? = navigationAction.request
 	decisionHandler(.allow)
 
-  DOT.setWkWebView(webView, reqeust: request)
+  	DOT.setWkWebView(webView, reqeust: request)
 }
 
 func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
