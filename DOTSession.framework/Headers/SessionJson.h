@@ -23,6 +23,8 @@
 @property (nonatomic) NSString *mbl;
 @property (nonatomic) NSString *mbid;
 @property (nonatomic) NSString *isLogin;
+@property (nonatomic) NSString *loginTp;
+@property (nonatomic) NSString *signupTp;
 
 //접속환경
 @property (nonatomic) NSString *lng;

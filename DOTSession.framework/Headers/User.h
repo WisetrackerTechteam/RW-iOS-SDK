@@ -20,6 +20,8 @@
 @property (nonatomic) NSString *memberGrade;
 @property (nonatomic) NSString *memberId;
 @property (nonatomic) NSString *isLogin;
+@property (nonatomic) NSString *loginTp;
+@property (nonatomic) NSString *signupTp;
 
 - (void)setUser;
 @end
