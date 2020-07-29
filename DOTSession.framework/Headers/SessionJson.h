@@ -65,6 +65,7 @@
 @property (nonatomic) NSString *isWf;
 @property (nonatomic) NSString *isMf;
 @property (nonatomic) NSString *isWfUs;
+@property (nonatomic) NSInteger pageKey;
 
 //구매 이벤트 후 변경값
 @property (nonatomic) NSInteger udRvnc;
@@ -134,6 +135,7 @@
 
 //앱 광고
 @property (nonatomic) NSDictionary *sarInfo;
+
 
 //네이버 wcslog pairing 분석항목
 //@property (nonatomic) NSString *nvr_nnb;

@@ -61,6 +61,7 @@
 - (void)resetAidChange;
 - (void)resetOpenDl;
 
+- (void)resetPageKey;
 @end
 
 
