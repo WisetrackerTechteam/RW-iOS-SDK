@@ -49,9 +49,11 @@
 - (void)createEntireJson2;
 - (void)setPairingDataWithDictionary:(NSMutableDictionary *)pairingJsonDict;
 
-
 //DOT SDK 호출함수
 - (NSMutableDictionary *)getSessionData;
+
+//Internal Campaign Setting
+- (void)setInternalCampaignWithSequnce:(NSInteger) sequence icId:(NSString *)icId inrcDays:(NSInteger) inrcDays;
 
 // iOS 10 only
 // Notification Service Extension

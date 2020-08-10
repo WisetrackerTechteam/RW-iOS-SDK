@@ -67,6 +67,18 @@ FOUNDATION_EXPORT const unsigned char DOTVersionString[];
 + (BOOL)getDOTSessionInitYN;
 + (BOOL)checkNewSession;
 
+//Internal Campaign Setting
++ (void)setInternalCampaign1:(NSString *)icId inrcDays:(NSInteger)inrcDays;
++ (void)setInternalCampaign2:(NSString *)icId inrcDays:(NSInteger)inrcDays;
++ (void)setInternalCampaign3:(NSString *)icId inrcDays:(NSInteger)inrcDays;
++ (void)setInternalCampaign4:(NSString *)icId inrcDays:(NSInteger)inrcDays;
++ (void)setInternalCampaign5:(NSString *)icId inrcDays:(NSInteger)inrcDays;
++ (void)setInternalCampaign6:(NSString *)icId inrcDays:(NSInteger)inrcDays;
++ (void)setInternalCampaign7:(NSString *)icId inrcDays:(NSInteger)inrcDays;
++ (void)setInternalCampaign8:(NSString *)icId inrcDays:(NSInteger)inrcDays;
++ (void)setInternalCampaign9:(NSString *)icId inrcDays:(NSInteger)inrcDays;
++ (void)setInternalCampaign10:(NSString *)icId inrcDays:(NSInteger)inrcDays;
+
 // iOS 10 only
 // Notification Service Extension
 //#ifdef IOS10PLUS
