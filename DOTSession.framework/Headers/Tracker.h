@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <WebKit/WebKit.h>
 #import "SessionJson.h"
+#import "InternalCampaign.h"
 
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= 100000
 #define IOS10PLUS 1
@@ -54,7 +55,7 @@
 
 //Internal Campaign Setting
 - (void)setInternalCampaignWithSequnce:(NSInteger) sequence icId:(NSString *)icId inrcDays:(NSInteger) inrcDays;
-
+- (void)setInternalCampaign:(InternalCampaign *)ic;
 // iOS 10 only
 // Notification Service Extension
 //#ifdef IOS10PLUS

@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "User.h"
 #import "Referrer.h"
+#import "InternalCampaign.h"
 #import "SessionJson.h"
 #import "SessionController.h"
 #import "Tracker.h"
@@ -68,16 +69,7 @@ FOUNDATION_EXPORT const unsigned char DOTVersionString[];
 + (BOOL)checkNewSession;
 
 //Internal Campaign Setting
-+ (void)setInternalCampaign1:(NSString *)icId inrcDays:(NSInteger)inrcDays;
-+ (void)setInternalCampaign2:(NSString *)icId inrcDays:(NSInteger)inrcDays;
-+ (void)setInternalCampaign3:(NSString *)icId inrcDays:(NSInteger)inrcDays;
-+ (void)setInternalCampaign4:(NSString *)icId inrcDays:(NSInteger)inrcDays;
-+ (void)setInternalCampaign5:(NSString *)icId inrcDays:(NSInteger)inrcDays;
-+ (void)setInternalCampaign6:(NSString *)icId inrcDays:(NSInteger)inrcDays;
-+ (void)setInternalCampaign7:(NSString *)icId inrcDays:(NSInteger)inrcDays;
-+ (void)setInternalCampaign8:(NSString *)icId inrcDays:(NSInteger)inrcDays;
-+ (void)setInternalCampaign9:(NSString *)icId inrcDays:(NSInteger)inrcDays;
-+ (void)setInternalCampaign10:(NSString *)icId inrcDays:(NSInteger)inrcDays;
++ (void)setInternalCampaign:(InternalCampaign *)ic;
 
 // iOS 10 only
 // Notification Service Extension
