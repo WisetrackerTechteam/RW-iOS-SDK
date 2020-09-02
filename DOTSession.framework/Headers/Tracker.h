@@ -54,8 +54,11 @@
 - (NSMutableDictionary *)getSessionData;
 
 //Internal Campaign Setting
-- (void)setInternalCampaignWithSequnce:(NSInteger) sequence icId:(NSString *)icId inrcDays:(NSInteger) inrcDays;
 - (void)setInternalCampaign:(InternalCampaign *)ic;
+
+//IDFA 저장
+- (void)setIDFA:(NSString *)IDFAStr;
+
 // iOS 10 only
 // Notification Service Extension
 //#ifdef IOS10PLUS

@@ -27,6 +27,8 @@
 #import "NHNetAssociation.h"
 #import "NHNetworkClock.h"
 #import "NSDate+NetworkClock.h"
+#import "KeychainWrapper.h"
+
 //Use UserNotifications with iOS 10+
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= 100000
 #define IOS10PLUS 1
@@ -70,6 +72,9 @@ FOUNDATION_EXPORT const unsigned char DOTVersionString[];
 
 //Internal Campaign Setting
 + (void)setInternalCampaign:(InternalCampaign *)ic;
+
+//IDFA 저장
++ (void)setIDFA:(NSString *)IDFAStr;
 
 // iOS 10 only
 // Notification Service Extension

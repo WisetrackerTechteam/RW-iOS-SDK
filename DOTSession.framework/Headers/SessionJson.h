@@ -45,6 +45,8 @@
 
 //사용자 식별
 @property (nonatomic) NSString *advtId;
+@property (nonatomic) NSString *uptAfv;
+@property (nonatomic) NSString *keychainUUID;
 @property (nonatomic) NSString *imei;
 @property (nonatomic) NSString *vendorId;
 @property (nonatomic) NSString *uuid;

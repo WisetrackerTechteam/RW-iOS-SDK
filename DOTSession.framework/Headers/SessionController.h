@@ -62,6 +62,9 @@
 - (void)resetOpenDl;
 
 - (void)resetPageKey;
+
+- (void)resetSaveToken;
+- (void)resetUptAfv;
 @end
 
 
