@@ -33,7 +33,7 @@
 - (void)updateLtRvnc;
 
 - (void)updateCsRvnVsWithRevenueJsonVtTz:(NSTimeInterval)revenueJsonVtTz;
-- (void)updateLtrvnWithRevenuJsonProducts:(NSMutableArray *)productList;
+- (void)updateLtrvnWithRevenuJsonProducts:(id)productList;
 
 - (void)updateLtrvni;
 
