@@ -15,7 +15,7 @@ pod 'RW'
 기존에 SDK를 한번 설치한 경우에는 설치할SDK 버전을 표시해야 하는 경우도 있습니다. 아래와 같이 설치할 SDK버전을 명시적으로 표시하면 됩니다.
 
 ```bat
-pod 'RW', '~> 1.0.1'
+pod 'RW', '~> 1.0.2'
 ```
 
 Podfile 에 해당라인을 추가한 후 Terminal 프로그램을 실행하여 다음의 명령을 수행합니다
@@ -26,13 +26,13 @@ cmd> pod install
 
 정상적으로 설치가 되면 아래와 같은 폴더 구조를 확인할 수 있습니다.
 
-![](http://www.wisetracker.co.kr/wp-content/uploads/2020/03/rw_podinstall.png)
+![](http://www.wisetracker.co.kr/wp-content/uploads/2020/11/RW_frameworks.png)
 
 ### 1.2 SDK 세팅
 
 XCode 프로젝트의 info.plist 파일에 제공받은 App Analytics Key 정보를 추가합니다
 info.plist 파일을 open할때 **list로 보기** 가 아니라 **source로 보기**를 선탁하신뒤, 제공받으신 Key를 **Ctrl+V** 하시면 됩니다
-제공받은 Key값은 아래의 예시와 같이 xml 형태를 가지고 있는 데이터 입니다
+serviceNumber를 제공되는 값으로 수정해주세요.
 
 ```xml
 <key>dotAuthorizationKey</key>
