@@ -76,6 +76,8 @@ FOUNDATION_EXPORT const unsigned char DOTVersionString[];
 //IDFA 저장
 + (void)setIDFA:(NSString *)IDFAStr;
 
+//attribution Info 가져오기
++ (void)getAttributedInfo:(void (^)(NSDictionary *))callback;
 // iOS 10 only
 // Notification Service Extension
 //#ifdef IOS10PLUS

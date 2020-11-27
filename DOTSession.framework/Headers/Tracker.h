@@ -59,6 +59,8 @@
 //IDFA 저장
 - (void)setIDFA:(NSString *)IDFAStr;
 
+- (NSDictionary *)getAttributedInfo;
+
 // iOS 10 only
 // Notification Service Extension
 //#ifdef IOS10PLUS
