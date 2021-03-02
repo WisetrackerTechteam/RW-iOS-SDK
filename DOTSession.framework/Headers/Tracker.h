@@ -16,10 +16,11 @@
 #import <UserNotifications/UserNotifications.h>
 #endif
 
-@interface Tracker : NSObject
-  
+@interface Tracker : NSObject<WKNavigationDelegate, WKUIDelegate>
 
 + (Tracker *)sharedInstance;
++ (Tracker *)getSharedInstance;
+
 - (void)initEnd:(NSDictionary *)launchOptions;
 
 - (void)saveUserLoginInfo;
@@ -61,6 +62,7 @@
 
 - (NSDictionary *)getAttributedInfo;
 
+- (void)setATTAuthorizationStatus:(NSInteger)authStatus;
 // iOS 10 only
 // Notification Service Extension
 //#ifdef IOS10PLUS

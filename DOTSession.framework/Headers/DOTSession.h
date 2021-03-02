@@ -77,7 +77,10 @@ FOUNDATION_EXPORT const unsigned char DOTVersionString[];
 + (void)setIDFA:(NSString *)IDFAStr;
 
 //attribution Info 가져오기
-+ (void)getAttributedInfo:(void (^)(NSDictionary *))callback;
++ (void)getAttributedInfo:(void (^)(NSDictionary *))handler;
+
+// set ATTrackingManager.AuthorizationStatus
++ (void)setATTAuthorizationStatus:(NSInteger)authStatus;
 // iOS 10 only
 // Notification Service Extension
 //#ifdef IOS10PLUS

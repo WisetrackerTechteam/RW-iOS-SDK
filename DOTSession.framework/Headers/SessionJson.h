@@ -184,6 +184,14 @@
 //@property (nonatomic) NSString *nvr_nwb;
 //@property (nonatomic) long long nvr_timestamp;
 
+//인앱메세지
+@property (nonatomic) NSString *alreadySeenCampaignId;
+@property (nonatomic) NSString *inamId;
+@property (nonatomic) long long inamClkTime;
+@property (nonatomic) long long inamExpireTime;
+
+// ATTAuthStatus
+@property (nonatomic) NSInteger ATTAuthStatus;
 + (instancetype)sharedInstance;
 + (instancetype)getSharedInstance;
 + (void)clearInstance;

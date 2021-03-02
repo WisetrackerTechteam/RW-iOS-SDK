@@ -65,6 +65,15 @@
 
 - (void)resetSaveToken;
 - (void)resetUptAfv;
+
+// InappMessage
+- (void)updateAlreadySeenMessageId:(NSString *) alreadySeenMeesageId;
+- (void)updateInamId:(NSString *)inamId;
+- (void)updateInamClkTime:(long long)inamClkTime;
+- (void)updateInamExpireTime:(long long)inamClkTime;
+
+// iOS 14.5 대응
+- (void)updateSesssionAboutEnvironment;
 @end
 
 
