@@ -192,6 +192,10 @@
 
 // ATTAuthStatus
 @property (nonatomic) NSInteger ATTAuthStatus;
+
+//SKAdNetwork conversion value
+@property (nonatomic) NSInteger latestSkAdCurValue;
+
 + (instancetype)sharedInstance;
 + (instancetype)getSharedInstance;
 + (void)clearInstance;

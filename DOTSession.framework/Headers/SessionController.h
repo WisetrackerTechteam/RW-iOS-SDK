@@ -50,7 +50,7 @@
 - (void)saveAppInfo:(NSDictionary *)appInfo;
 
 - (void)updateIsVisitNew;
-- (void)resetAboutNewVistInfo;
+- (void)resetAboutNewVisitInfo;
 
 - (void)saveSessionExpireTime;
 
@@ -74,6 +74,9 @@
 
 // iOS 14.5 대응
 - (void)updateSesssionAboutEnvironment;
+
+// skadnework update conversion value
+- (void)updateSkAdadCurValue:(NSInteger)conversionValue;
 @end
 
 
