@@ -88,4 +88,6 @@ FOUNDATION_EXPORT const unsigned char DOTVersionString[];
 //+ (UNMutableNotificationContent*)serviceExtensionTimeWillExpireRequest:(UNNotificationRequest*)request withContent:(UNMutableNotificationContent*)replacementContent API_AVAILABLE(ios(10.0)) API_AVAILABLE(ios(10.0));
 //#endif
 
+//+ (void)useDebugChecks:(BOOL)debugCheck;
++ (NSString *)parseAttributionLinkToGetDeeplinkUrl:(NSString *)attributionUrl;
 @end
