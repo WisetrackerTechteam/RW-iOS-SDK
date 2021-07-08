@@ -4,3 +4,8 @@ framework module DOT {
   export *
   module * { export * }
 }
+
+module DOT.Swift {
+    header "DOT-Swift.h"
+    requires objc
+}

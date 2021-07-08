@@ -118,7 +118,7 @@
 @property (nonatomic) NSInteger pushPeriod;
 @property (nonatomic) NSString *pushTitle;
 @property (nonatomic) NSString *saveToken;
-
+@property (nonatomic) long long pushExpiredTime;
 //App Info
 @property (nonatomic) NSString *_wthst;
 @property (nonatomic) NSInteger _wtno;

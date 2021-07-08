@@ -33,6 +33,7 @@
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= 100000
 #define IOS10PLUS 1
 #import <UserNotifications/UserNotifications.h>
+
 #endif
 //! Project version number for DOT.
 FOUNDATION_EXPORT double DOTVersionNumber;
@@ -75,18 +76,14 @@ FOUNDATION_EXPORT const unsigned char DOTVersionString[];
 
 //IDFA 저장
 + (void)setIDFA:(NSString *)IDFAStr;
++ (void)denyATT;
 
 //attribution Info 가져오기
 + (void)getAttributedInfo:(void (^)(NSDictionary *))handler;
 
 // set ATTrackingManager.AuthorizationStatus
 + (void)setATTAuthorizationStatus:(NSInteger)authStatus;
-// iOS 10 only
-// Notification Service Extension
-//#ifdef IOS10PLUS
-//+ (UNMutableNotificationContent*)didReceiveNotificationExtensionRequest:(UNNotificationRequest*)request withContent:(UNMutableNotificationContent*)replacementContent API_AVAILABLE(ios(10.0)) API_AVAILABLE(ios(10.0));
-//+ (UNMutableNotificationContent*)serviceExtensionTimeWillExpireRequest:(UNNotificationRequest*)request withContent:(UNMutableNotificationContent*)replacementContent API_AVAILABLE(ios(10.0)) API_AVAILABLE(ios(10.0));
-//#endif
+
 
 + (void)checkDebugMode:(BOOL)debugCheck;
 + (NSString *)parseAttributionLinkToGetDeeplinkUrl:(NSString *)attributionUrl;

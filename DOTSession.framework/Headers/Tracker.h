@@ -59,16 +59,11 @@
 
 //IDFA 저장
 - (void)setIDFA:(NSString *)IDFAStr;
+- (void)denyATT;
 
 - (NSDictionary *)getAttributedInfo;
 
 - (void)setATTAuthorizationStatus:(NSInteger)authStatus;
-// iOS 10 only
-// Notification Service Extension
-//#ifdef IOS10PLUS
-//- (UNMutableNotificationContent*)didReceiveNotificationExtensionRequest:(UNNotificationRequest*)request withContent:(UNMutableNotificationContent*)replacementContent API_AVAILABLE(ios(10.0)) API_AVAILABLE(ios(10.0));
-//- (UNMutableNotificationContent*)serviceExtensionTimeWillExpireRequest:(UNNotificationRequest*)request withContent:(UNMutableNotificationContent*)replacementContent API_AVAILABLE(ios(10.0)) API_AVAILABLE(ios(10.0));
-//#endif
 
 - (void)checkDebugMode:(BOOL)debugCheck;
 - (NSString *)parseAttributionLinkToGetDeeplinkUrl:(NSString *)attributionUrl;
