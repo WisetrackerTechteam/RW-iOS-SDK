@@ -26,7 +26,7 @@
              converts it to plain NSData
  @result Returns the decrypted NSData.
  */
-- (NSData *)AES256DecryptWithKey:(NSString *)key;
+- (NSData *)AES256DecryptWithKey1:(NSString *)key;
 
 /*
  \internal
