@@ -40,7 +40,7 @@ FOUNDATION_EXPORT const unsigned char DOTAdvanceVersionString[];
 
 // 생명주기 관련 함수
 + (void)onStartPage;
-//+ (void)onStopPage;
++ (void)onStopPage;
 + (void)enterForeground;
 + (void)enterBackground;
 
