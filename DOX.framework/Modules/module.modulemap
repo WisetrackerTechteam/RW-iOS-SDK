@@ -1,6 +1,0 @@
-framework module DOX {
-  umbrella header "DOX.h"
-
-  export *
-  module * { export * }
-}
