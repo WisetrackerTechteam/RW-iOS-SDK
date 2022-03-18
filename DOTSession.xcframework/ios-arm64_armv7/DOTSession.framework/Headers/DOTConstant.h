@@ -10,10 +10,10 @@
 #define kDOTColletorUrl @"http://trk.analytics.wisetracker.co.kr"
 
 #define DOTLogD(fmt, ...) \
-  printf("%s 👉 D%s(%d): [%s]\n", __TIME__, __PRETTY_FUNCTION__, __LINE__, [[NSString stringWithFormat:fmt, ##__VA_ARGS__] UTF8String]);
+  printf("%s D/WiseLog👉 %s(%d): [%s]\n", __TIME__, __PRETTY_FUNCTION__, __LINE__, [[NSString stringWithFormat:fmt, ##__VA_ARGS__] UTF8String]);
 
 #define DOTLogI(fmt, ...) \
-  printf("%s 😀 I%s(%d): [%s]\n", __TIME__, __PRETTY_FUNCTION__, __LINE__, [[NSString stringWithFormat:fmt, ##__VA_ARGS__] UTF8String]);
+  printf("%s I/WiseLog😀 %s(%d): [%s]\n", __TIME__, __PRETTY_FUNCTION__, __LINE__, [[NSString stringWithFormat:fmt, ##__VA_ARGS__] UTF8String]);
 
 #define DOTLogE(fmt, ...) \
-  printf("%s 🚨 E%s(%d): [%s]\n", __TIME__, __PRETTY_FUNCTION__, __LINE__, [[NSString stringWithFormat:fmt, ##__VA_ARGS__] UTF8String]);
+  printf("%s E/WiseLog🚨 %s(%d): [%s]\n", __TIME__, __PRETTY_FUNCTION__, __LINE__, [[NSString stringWithFormat:fmt, ##__VA_ARGS__] UTF8String]);

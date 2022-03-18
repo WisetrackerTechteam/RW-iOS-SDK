@@ -66,6 +66,9 @@
 - (void)resetSaveToken;
 - (void)resetUptAfv;
 
+// PushTitle
+- (void)resetPushTitle;
+
 // InappMessage
 - (void)updateAlreadySeenMessageId:(NSString *) alreadySeenMeesageId;
 - (void)updateInamId:(NSString *)inamId;
