@@ -51,7 +51,7 @@ FOUNDATION_EXPORT const unsigned char DOTAdvanceVersionString[];
 + (void)onStartWebPage;
 + (void)onStopWebPage;
 //+ (void)setJavascriptInjectionInWebView:(UIWebView *)webView;
-+ (void)injectJavascriptWithDomSearch:(WKWebView *)wkWebView;
++ (void)injectJavascriptWithDomSearch:(WKWebView *)wkWebView isOnPageFinished:(BOOL)isOnPageFinished;
 + (void)setJavascriptInjectionInWkWebView:(WKWebView *)wkWebView;
 
 //RW New API
