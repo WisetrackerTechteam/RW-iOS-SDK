@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/DOTConstant.h</key>
 		<data>
-		+ZAFpt2C6dK8pkm8Lehi/MHdYwU=
+		clQ1/gG7DGYgHXqIKzFzWkkjN7Q=
 		</data>
 		<key>Headers/DOTDebugger.h</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LNhQkgw24kmOZyeMu7qbifwv9OA=
+		3j0ynadO+n3g3JXmeHXLd2A4s5E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -111,11 +111,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+ZAFpt2C6dK8pkm8Lehi/MHdYwU=
+			clQ1/gG7DGYgHXqIKzFzWkkjN7Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			qLp5r1qTe7hxEKf7vqyMdzL0My/zrJ0r3LtJzPxsBPg=
+			EFGmAJA7F/IeznAZhm2DYtkwTTVYHnveGBwK9dWYW24=
 			</data>
 		</dict>
 		<key>Headers/DOTDebugger.h</key>

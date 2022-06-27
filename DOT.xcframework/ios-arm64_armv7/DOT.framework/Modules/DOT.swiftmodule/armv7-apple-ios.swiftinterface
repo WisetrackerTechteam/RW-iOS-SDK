@@ -1,11 +1,10 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6.1 effective-4.1.50 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-compiler-version: Apple Swift version 5.4 effective-4.1.50 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
 // swift-module-flags: -target armv7-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -module-name DOT
 @_exported import DOT
 import Foundation
 import Swift
 import UserNotifications
-import _Concurrency
 @objc @_inheritsConvenienceInitializers public class NotificationManager : UserNotifications.UNNotificationServiceExtension {
   @objc(didReceiveNotificationExtensionRequest:replacementContent:) public func didReceiveNotificationExtensionRequest(request: UserNotifications.UNNotificationRequest, replacementContent: UserNotifications.UNMutableNotificationContent) -> UserNotifications.UNMutableNotificationContent
   @objc override dynamic public init()
