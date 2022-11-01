@@ -1,0 +1,6 @@
+framework module DOTSession {
+  umbrella header "DOTSession.h"
+
+  export *
+  module * { export * }
+}
