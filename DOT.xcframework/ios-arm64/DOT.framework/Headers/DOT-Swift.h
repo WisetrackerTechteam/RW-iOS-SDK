@@ -254,7 +254,7 @@ using UInt = size_t;
 @class UNNotificationRequest;
 @class UNMutableNotificationContent;
 
-SWIFT_CLASS("_TtC3DOT19NotificationManager")
+SWIFT_CLASS("_TtC3DOT19NotificationManager") SWIFT_AVAILABILITY(ios,introduced=10.0)
 @interface NotificationManager : UNNotificationServiceExtension
 - (UNMutableNotificationContent * _Nonnull)didReceiveNotificationExtensionRequest:(UNNotificationRequest * _Nonnull)request replacementContent:(UNMutableNotificationContent * _Nonnull)replacementContent SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;

@@ -92,8 +92,10 @@
         "usr": "c:@M@DOT@objc(cs)NotificationManager",
         "mangledName": "$s3DOT19NotificationManagerC",
         "moduleName": "DOT",
+        "intro_iOS": "10.0",
         "declAttributes": [
           "AccessControl",
+          "Available",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UNNotificationServiceExtension",
