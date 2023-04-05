@@ -9,7 +9,7 @@
 
 #define kDOTVersion @"1.1.5"
 
-#define kDOTColletorUrl @"http://trk.analytics.wisetracker.co.kr"
+#define kDOTColletorUrl @"https://trk.analytics.wisetracker.co.kr"
 
 //#define DOTLogD(fmt, ...) \
 //printf("D/WiseLog👉 %s(%d): [%s]\n", __PRETTY_FUNCTION__, __LINE__, [[NSString stringWithFormat:fmt, ##__VA_ARGS__] UTF8String]);
