@@ -13,6 +13,7 @@ typedef void(^CompletionBlock)(BOOL isSuccess, NSData *data, id respons);
 @interface NetworkManager : NSObject
 @property (nonatomic) NSDictionary *dotAuthorizationKey;
 @property (nonatomic) NSString *DOTApiUrl;
+@property (nonatomic, strong) NSURLSession *sdkUrlSession;
 
 - (void)requestFingerPrintWithWtno:(NSInteger)wtno firstExcuteYN:(BOOL)firstExcuteYN completion:(CompletionBlock)completion;
 - (void)requestAccessTokenWithServiceNumber:(NSInteger)serviceNumber package:(NSString *)pagckage completion:(CompletionBlock)completion;
