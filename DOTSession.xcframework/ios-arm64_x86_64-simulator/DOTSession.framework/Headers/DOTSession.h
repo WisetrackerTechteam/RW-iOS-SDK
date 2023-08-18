@@ -89,4 +89,9 @@ FOUNDATION_EXPORT const unsigned char DOTVersionString[];
 
 + (void)checkDebugMode:(BOOL)debugCheck;
 + (NSString *)parseAttributionLinkToGetDeeplinkUrl:(NSString *)attributionUrl;
+
+// Whether to allow logEvent function to be called before SDK is initialized
++ (void)setBlockingLogEventCallBeforeSdkInitComplete:(BOOL)value;
++ (BOOL)getBlockingLogEventCallBeforeSdkInitComplete;
+
 @end
