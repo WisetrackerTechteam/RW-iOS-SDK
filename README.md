@@ -23,7 +23,7 @@ Podfile 에 해당라인을 추가한 후 Terminal 프로그램을 실행하여 
 ```bat
 cmd> pod install
 ```
-
+  
 정상적으로 설치가 되면 아래와 같은 폴더 구조를 확인할 수 있습니다.
 
 ![](http://www.wisetracker.co.kr/wp-content/uploads/2020/11/RW_frameworks.png)
