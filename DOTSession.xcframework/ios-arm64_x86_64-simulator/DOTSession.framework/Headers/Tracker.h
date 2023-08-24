@@ -19,11 +19,6 @@
 @interface Tracker : NSObject<WKNavigationDelegate, WKUIDelegate>
 
 + (Tracker *)sharedInstance;
-
-// 고객사에서 자체적으로 사용하는 WKWebViewConfiguration 이 존재하는 경우,
-// 해당 WKWebViewConfiguration 객체를 전달 받아 설정하고, 웹뷰를 생성하여 사용할 수 있도록 함수 추가.
-+ (Tracker *)sharedInstanceWithWebViewConfiguration:(WKWebViewConfiguration *)webViewConfiguration;
-
 + (Tracker *)getSharedInstance;
 
 - (void)initEnd:(NSDictionary *)launchOptions;
