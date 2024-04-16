@@ -102,21 +102,17 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pLo3+Za0IKRH6rwqnMZMcEfvXEc=
+		SL2Rss+rZE/rOatWauVRfJpmphQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		jcdgGR/netNAE63cqQTfCB431jI=
+		10zTAAjowkcl7beN0EJz/Y4uY2Y=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/DOTConstant.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AxjafTjcLuVeJIR45ybV0QDbaNI=
-			</data>
 			<key>hash2</key>
 			<data>
 			CU15fYSPRMJeatadcq4TG6dNFa+E4K5VGG8onj3Z2uQ=
@@ -124,10 +120,6 @@
 		</dict>
 		<key>Headers/DOTDebugger.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VzgcJiU0m3T1HYoA2iADCQAcNbE=
-			</data>
 			<key>hash2</key>
 			<data>
 			50IMlXbz05v4y3RYCalIOSrS6/gPsGk1X83CjA99rYA=
@@ -135,10 +127,6 @@
 		</dict>
 		<key>Headers/DOTReachability.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			u0q6CsqygnTXaKYppcSDARwwuMs=
-			</data>
 			<key>hash2</key>
 			<data>
 			XJtxaFw9H/iwSMcEBi6SyWZc1CFnpRnA+X6jusxRwEQ=
@@ -146,10 +134,6 @@
 		</dict>
 		<key>Headers/DOTSession.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JJpvZtKcj9VVQZwp8ZIab2+rhQE=
-			</data>
 			<key>hash2</key>
 			<data>
 			9rnG3djrzWKQ1U3C3GW3d57ApVxke7BOIwF69Rx/dtU=
@@ -157,10 +141,6 @@
 		</dict>
 		<key>Headers/DOTUtil.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0oDLIOD5MB8USwPWqA+BHuz5IFs=
-			</data>
 			<key>hash2</key>
 			<data>
 			aG8ENoBVq1CjvkxotdgLWlTs8rfuMQTI3PA2Mfw/aZo=
@@ -168,10 +148,6 @@
 		</dict>
 		<key>Headers/GCDAsyncUdpSocket.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0481iNPobQghjVX74kpxRbfXKpI=
-			</data>
 			<key>hash2</key>
 			<data>
 			BPXmqJHe3cPbFYen2pEUSVYA37rH88XjcGHpymyqAn0=
@@ -179,10 +155,6 @@
 		</dict>
 		<key>Headers/InternalCampaign.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			HMwEVcNC0icetAw3py8Y5jOAQKk=
-			</data>
 			<key>hash2</key>
 			<data>
 			UPBJoOCv/ARb+DalCpmtGEUrDdsv+MKvKbM+DyABZ5M=
@@ -190,10 +162,6 @@
 		</dict>
 		<key>Headers/KeychainWrapper.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iWk4rLXFIins8PEdceSqlvBiJX8=
-			</data>
 			<key>hash2</key>
 			<data>
 			nd/bIEeKFBFvNZ4Nk9EpjgZyvi4sR89CwvhvgWNgKcA=
@@ -201,10 +169,6 @@
 		</dict>
 		<key>Headers/LocalDB.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FAET987IR0xrkP+X0Uv01t8i4MI=
-			</data>
 			<key>hash2</key>
 			<data>
 			WQWGSw2F9qvijBfxYAiWje6Sj7nvI/dked1txJ78eQU=
@@ -212,10 +176,6 @@
 		</dict>
 		<key>Headers/NHNTLog.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			T8FwAyg/bYuOIf7fd48itGQoMeo=
-			</data>
 			<key>hash2</key>
 			<data>
 			fF8PqOa1nocE+LAgZd0y407ZfCLRFYyPEm+AQa71Ju4=
@@ -223,10 +183,6 @@
 		</dict>
 		<key>Headers/NHNetAssociation.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Sb7KRfiKHQ2quw4mO4SZDivHchI=
-			</data>
 			<key>hash2</key>
 			<data>
 			gkEqpBb6KTAD3ZOGRoSSsw3yvQ8WXXz3KNiULRyzzg8=
@@ -234,10 +190,6 @@
 		</dict>
 		<key>Headers/NHNetworkClock.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			D3eKYj0xTL9w7vusgp2fLC+DsEg=
-			</data>
 			<key>hash2</key>
 			<data>
 			QuMX64YXQCoDrXIQNXs2wVp0OVHwqtplb6b1ODtPIJM=
@@ -245,10 +197,6 @@
 		</dict>
 		<key>Headers/NHNetworkTime.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XgscSc3LPgB7ddOgTAuImfD8G7s=
-			</data>
 			<key>hash2</key>
 			<data>
 			V3RtAj68ebk028qIYPbn4BFndK8PPP7LmhlfmKtEsZE=
@@ -256,10 +204,6 @@
 		</dict>
 		<key>Headers/NSData+AESCrypt.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			v+vueDR3SuWUgx8/L70UzC845AA=
-			</data>
 			<key>hash2</key>
 			<data>
 			hOtBcyRjY8jBJZ0oW4T3mb4y6byEr18gkFb2hHs/8oE=
@@ -267,10 +211,6 @@
 		</dict>
 		<key>Headers/NSDate+NetworkClock.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1fR0igCUMYabbXM3gDucqVRETGM=
-			</data>
 			<key>hash2</key>
 			<data>
 			pJEKYbBJ0TQZHSvZkmm13iRVjw2AIGS9wvVvFC3oB+k=
@@ -278,10 +218,6 @@
 		</dict>
 		<key>Headers/NSObject+Builder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1Wn/kMchlM85JGJvJuIY05EiY/Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			OnQkZ+BqrgY2fiMWLoS2kpOyvDEagU9GVdcGq+MS/tM=
@@ -289,10 +225,6 @@
 		</dict>
 		<key>Headers/NSString+AESCrypt.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			s8Y/L5w5YJbIlVtFl6R+EnFnoC8=
-			</data>
 			<key>hash2</key>
 			<data>
 			YRI5Do6Dm5Z7UcdBlyhT4GynNK7iHCmvFBa+czBjfw0=
@@ -300,10 +232,6 @@
 		</dict>
 		<key>Headers/NetworkManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yiQwuPA2+dBh+35vs4O4GQg3scc=
-			</data>
 			<key>hash2</key>
 			<data>
 			mVEOUiw9/nirrAWZVGSZUdYc0SRqyV2koU+/RJeAMsw=
@@ -311,10 +239,6 @@
 		</dict>
 		<key>Headers/Referrer.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ucPKza93tZNJvFhZnU+VULSaQ28=
-			</data>
 			<key>hash2</key>
 			<data>
 			wip3ePpAD3Q1bENilS46L63bzd2aLYCgM3/PK7iXegM=
@@ -322,10 +246,6 @@
 		</dict>
 		<key>Headers/SKANManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			OoVuglLno29QchuM20faUazI7FU=
-			</data>
 			<key>hash2</key>
 			<data>
 			sdvAg6VIHF2UHjgvW1HLXaloWi8U5MvpxeW9CNnh3Fo=
@@ -333,10 +253,6 @@
 		</dict>
 		<key>Headers/SessionController.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			8e5SDS+czYui7zXitPAHQSDMdSI=
-			</data>
 			<key>hash2</key>
 			<data>
 			CerlIkKXd3lyv4hwck3sNNbGBdM+qAPtebTjtapSdWo=
@@ -344,10 +260,6 @@
 		</dict>
 		<key>Headers/SessionJson.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0nRXyr5OC4BWqOAkFenUWlbHlWA=
-			</data>
 			<key>hash2</key>
 			<data>
 			8NOxPy+Uwcrc7OnO0ijBL94fACmXeML25QLUgRZDrcQ=
@@ -355,10 +267,6 @@
 		</dict>
 		<key>Headers/Tracker.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IPTuWGl2POiQOD8N3D/WufrW1sI=
-			</data>
 			<key>hash2</key>
 			<data>
 			JzlYRAxUNVnfy4/TsW+lWYIfZvLKgv2VePNAKU3l+VA=
@@ -366,10 +274,6 @@
 		</dict>
 		<key>Headers/User.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			f61Z2yW8wAfW2hQWcN1z37oMM8M=
-			</data>
 			<key>hash2</key>
 			<data>
 			H2NaV6HnpjXUd09/PSALPenGwllbLOSnIBjEve5iJAE=
@@ -377,13 +281,9 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jcdgGR/netNAE63cqQTfCB431jI=
-			</data>
 			<key>hash2</key>
 			<data>
-			C4OQhv5M2rET3LWhHufHfwfXTEEz8RMRZ4bvh42MI/U=
+			CGi+joRnnkAorXbn07Scm1dXGjeZPrvWrei/Z7U1v60=
 			</data>
 		</dict>
 	</dict>

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "RW"
-  s.version      = "1.1.50"
+  s.version      = "1.1.51"
   s.summary      = "third party app tracking SDK"
   s.description  = <<-DESC
 	                 This is Wisetracker's SDK which tracks app and mobile attribution.
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'Wisetracker' => 'tech@wisetracker.co.kr' }
-  s.ios.deployment_target = '9.3'
+  s.ios.deployment_target = '12.0'
 
   s.source       = { :git => "https://github.com/WisetrackerTechteam/RW-iOS-SDK.git", :tag => s.version.to_s }
   s.ios.vendored_frameworks = 'DOT.xcframework', 'DOTSession.xcframework'
