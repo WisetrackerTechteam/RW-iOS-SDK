@@ -67,5 +67,5 @@ FOUNDATION_EXPORT const unsigned char DOTAdvanceVersionString[];
 #ifdef IOS10PLUS
 + (UNMutableNotificationContent*)didReceiveNotificationExtensionRequest:(UNNotificationRequest*)request withContent:(UNMutableNotificationContent*)replacementContent API_AVAILABLE(ios(10.0)) API_AVAILABLE(ios(10.0));
 #endif
-
+ 
 @end
