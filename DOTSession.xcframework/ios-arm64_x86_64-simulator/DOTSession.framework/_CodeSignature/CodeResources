@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/CustomWKWebViewConfiguration.h</key>
+		<data>
+		FLOYy+BGzwpD6J/EsinkPGq+Mus=
+		</data>
 		<key>Headers/DOTConstant.h</key>
 		<data>
 		AxjafTjcLuVeJIR45ybV0QDbaNI=
@@ -111,6 +115,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/CustomWKWebViewConfiguration.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OtemYBmJR6HSYQJ887axzA8+LXk1BRrq3SzZ1Yc0OW8=
+			</data>
+		</dict>
 		<key>Headers/DOTConstant.h</key>
 		<dict>
 			<key>hash2</key>
