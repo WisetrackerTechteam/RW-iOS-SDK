@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/ClientSideAttributionDataProvider.h</key>
+		<data>
+		iNZe3wOTyJOJb66nUT1TT5smigs=
+		</data>
 		<key>Headers/CustomWKWebViewConfiguration.h</key>
 		<data>
 		FLOYy+BGzwpD6J/EsinkPGq+Mus=
@@ -98,7 +102,7 @@
 		</data>
 		<key>Headers/Tracker.h</key>
 		<data>
-		IPTuWGl2POiQOD8N3D/WufrW1sI=
+		YXCoNLoPU31/DDRTtIaMRwpyN1k=
 		</data>
 		<key>Headers/User.h</key>
 		<data>
@@ -106,7 +110,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SL2Rss+rZE/rOatWauVRfJpmphQ=
+		8EI+NRuXmgTryJSJFXClbeMboZQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -115,6 +119,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/ClientSideAttributionDataProvider.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0dG7ikHahGiTvy6wSlbK8iUlf62ni7VgonSIuwZW4iA=
+			</data>
+		</dict>
 		<key>Headers/CustomWKWebViewConfiguration.h</key>
 		<dict>
 			<key>hash2</key>
@@ -280,7 +291,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JzlYRAxUNVnfy4/TsW+lWYIfZvLKgv2VePNAKU3l+VA=
+			6urP7vJk5U9OduvE4Vq2fz1+dMi3UJ0mIk6tlseTJjY=
 			</data>
 		</dict>
 		<key>Headers/User.h</key>

@@ -61,9 +61,7 @@
 //IDFA 저장
 - (void)setIDFA:(NSString *)IDFAStr;
 - (void)denyATT;
-
-- (NSDictionary *)getAttributedInfo;
-
+  
 - (void)setATTAuthorizationStatus:(NSInteger)authStatus;
 
 - (void)checkDebugMode:(BOOL)debugCheck;
