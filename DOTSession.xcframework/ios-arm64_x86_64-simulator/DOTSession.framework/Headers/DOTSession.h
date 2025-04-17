@@ -47,6 +47,15 @@ FOUNDATION_EXPORT const unsigned char DOTVersionString[];
 
 @interface DOTSession : NSObject
  
+/**
+ * info.plist 파일에 서비스 번호를 설정하지 않고,
+ * SDK 초기화 가능하도록 로직을 추가함. 2025.04.17
+ **/
++ (NSDictionary *)getDotAuthorizationKey;
++ (void)setLocallyAssignedServiceNumber:(int)serviceNo;
++ (int)getLocallyAssignedServiceNumber;
+
+
 //SDK init함수
 + (void)initialization:(NSDictionary *)launchOptions application:(UIApplication *)application;
 + (void)initializationForDeferredCallback:(NSDictionary *)launchOptions application:(UIApplication *)application callback:(void (^)(void))callback;
