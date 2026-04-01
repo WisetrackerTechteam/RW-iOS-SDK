@@ -8,5 +8,4 @@
 #import "SessionController.h" 
 @interface SKANManager : NSObject
     +(void)updatePostbackConversionValue:(NSDictionary *)response sessionController:(SessionController *)sessionController;
-    // -(NSString*)getHighMediumLow:(NSString*)cvalue;
 @end
