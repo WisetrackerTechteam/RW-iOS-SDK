@@ -199,6 +199,9 @@
 + (instancetype)sharedInstance;
 + (instancetype)getSharedInstance;
 + (void)clearInstance;
+
+// ATT 권한 변경 시 세션 재생성 없이 advtFlag 를 갱신하기 위해 노출함. 2026-09-17
+- (NSInteger)getAdvtFlag;
 @end
 
 

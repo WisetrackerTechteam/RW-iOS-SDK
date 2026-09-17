@@ -7,5 +7,4 @@ framework module DOT {
 
 module DOT.Swift {
   header "DOT-Swift.h"
-  requires objc
 }

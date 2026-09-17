@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "RW"
-  s.version      = "1.1.63"
+  s.version      = "1.1.64"
   s.summary      = "third party app tracking SDK"
   s.description  = <<-DESC
 	                 This is Wisetracker's SDK which tracks app and mobile attribution.
@@ -16,8 +16,4 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'DOT.xcframework', 'DOTSession.xcframework'
   s.dependency "CouchbaseLite"
   s.resources = ["dop-native-sdk-inf.js","NotificationViewController.swift","Base.lproj"]
-  s.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-  }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
